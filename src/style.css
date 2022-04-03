@@ -63,12 +63,12 @@ p {
 
 .content-container h1 {
   line-height: 80px;
-  font-size: 64px;
+  font-size: 58px;
 }
 
 .content-container h2 {
   font-family: var(--default-font-family);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .content {
@@ -87,7 +87,8 @@ p {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: light;
 }
 
 .photo {
@@ -108,12 +109,17 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   border-radius: 4px;
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: white;
+  background-color: var(--branding-color);
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 40px 60px;
+  line-height: 10px;
+}
+
+.project-description h2 {
+  font-size: 38px;
 }
 
 nav {
@@ -142,18 +148,13 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.icons p {
+  text-align: center;
+}
+
 footer {
   margin: 60px 0;
-}
-
-footer .contact-box {
-  background: var(--secondary-color);
-  padding: 30px 120px;
-  border-radius: 10px;
-}
-
-footer .contact-box p {
-  margin: 0;
+  background-color: var(--secondary-color);
 }
 
 footer .email-link {
@@ -207,5 +208,17 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 14px;
+  }
+
+  .response {
+    max-width: 50%;
+  }
+
+  .seo {
+    max-width: 50%;
+  }
+
+  .react {
+    max-width: 50%;
   }
 }
